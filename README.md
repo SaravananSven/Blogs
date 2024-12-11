@@ -18,7 +18,8 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/SaravananSven/Blogs.git
 cd Blogs
-2. Set up a virtual environment
+
+### 2. Set up a virtual environment
 For Windows:
 bash
 Copy code
