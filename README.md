@@ -1,47 +1,6 @@
 # Blogs
 This is a Django-based blog API project, built using Django REST Framework. The API allows users to create and manage blog posts. It uses token-based authentication to secure endpoints, ensuring only authorized users can create, retrieve, update, or delete blog posts.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Run Locally Instructions</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        pre {
-            background-color: #f4f4f4;
-            border: 1px solid #ddd;
-            padding: 10px;
-            overflow-x: auto;
-        }
-        code {
-            font-family: "Courier New", Courier, monospace;
-            background-color: #f9f9f9;
-            padding: 2px 4px;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        h1, h2 {
-            color: #333;
-        }
-    </style>
-</head>
-<body>
-    <h1>Run Locally</h1>
-    <p>Follow these steps to set up and run the <strong>Blogs</strong> Django API project locally:</p>
-    
-    <h2>1. Clone the repository</h2>
-    <pre><code>git clone https://github.com/SaravananSven/Blogs.git
 cd Blogs
     </code></pre>
     
