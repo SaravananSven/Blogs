@@ -15,14 +15,9 @@ git clone https://github.com/SaravananSven/Blogs.git
 cd Blogs
 
 ### 2. Set up a virtual environment
-For Linux/macOS:
-bash
-Copy code
-python3 -m venv env
-source env/bin/activate
+
 For Windows:
-bash
-Copy code
+
 python -m venv env
 .\env\Scripts\activate
 
