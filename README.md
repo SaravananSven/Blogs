@@ -12,3 +12,7 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/SaravananSven/Blogs.git
 cd Blogs
+
+## Set up a virtual environment
+
+Create and activate a virtual environment:
