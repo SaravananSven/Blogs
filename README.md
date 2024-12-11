@@ -16,12 +16,12 @@ cd Blogs
 2. Set up a virtual environment
 Create and activate a virtual environment:
 
-```bash
+
 python -m venv env
 .\env\Scripts\activate
 
 3. Install dependencies
 Install the required Python packages using pip:
 
-```bash
+
 pip install -r requirements.txt
