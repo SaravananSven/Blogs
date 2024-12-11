@@ -1,14 +1,15 @@
 # Blogs
 This is a Django-based blog API project, built using Django REST Framework. The API allows users to create and manage blog posts. It uses token-based authentication to secure endpoints, ensuring only authorized users can create, retrieve, update, or delete blog posts.
 
-Run Locally
-Follow these steps to set up and run the Blogs Django API project locally:
+### Run Locally
 
-1. Clone the repository
+Follow these steps to set up and run the **Blogs** Django API project locally:
+
+#### 1. Clone the repository
+
 Clone this repository to your local machine:
 
-bash
-Copy code
+```bash
 git clone https://github.com/SaravananSven/Blogs.git
 cd Blogs
 2. Set up a virtual environment
@@ -77,3 +78,6 @@ For authenticated requests, include the token in the Authorization header:
 text
 Copy code
 Authorization: Token <your-token>
+vbnet
+Copy code
+
