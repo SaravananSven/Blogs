@@ -23,7 +23,7 @@ cd Blogs
 For Windows:
 
 
-
+```bash
 python -m venv env
 .\env\Scripts\activate
 
