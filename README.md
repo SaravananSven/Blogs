@@ -11,20 +11,8 @@ Follow these steps to set up and run the **Blogs** Django API project locally:
 
 Clone this repository to your local machine:
 
-```bash
 git clone https://github.com/SaravananSven/Blogs.git
 cd Blogs
 
-## Run Locally
-
-Follow these steps to set up and run the **Blogs** Django API project locally:
-
-### 1. Clone the repository
-
-Clone this repository to your local machine:
-
-```bash
-git clone https://github.com/SaravananSven/Blogs.git
-cd Blogs
 
 
