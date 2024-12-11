@@ -14,7 +14,7 @@ Clone this repository to your local machine:
 git clone https://github.com/SaravananSven/Blogs.git
 cd Blogs
 
-2. Set up a virtual environment
+### 2. Set up a virtual environment
 For Linux/macOS:
 bash
 Copy code
@@ -25,13 +25,16 @@ bash
 Copy code
 python -m venv env
 .\env\Scripts\activate
-3. Install dependencies
+
+### 3. Install dependencies
+
 Install the required Python packages using pip:
 
 bash
 Copy code
 pip install -r requirements.txt
-4. Configure environment variables
+
+### 4. Configure environment variables
 Create a .env file in the root directory and add the following variables:
 
 bash
@@ -41,14 +44,16 @@ DEBUG=True
 ALLOWED_HOSTS=127.0.0.1,localhost
 Replace your-django-secret-key with a valid Django secret key.
 
-5. Set up the database
+
+###5. Set up the database
 Apply migrations to initialize the database schema:
 
 bash
 Copy code
 python manage.py makemigrations
 python manage.py migrate
-6. Create a superuser (optional)
+
+###6. Create a superuser (optional)
 If you need admin access, create a superuser account:
 
 bash
@@ -56,7 +61,7 @@ Copy code
 python manage.py createsuperuser
 Follow the prompts to set up the admin credentials.
 
-7. Generate API tokens
+###7. Generate API tokens
 To access authenticated endpoints, generate an API token for a user:
 
 bash
@@ -64,7 +69,7 @@ Copy code
 python manage.py drf_create_token <username>
 Replace <username> with an existing username or the superuser account.
 
-8. Start the development server
+###8. Start the development server
 Run the development server:
 
 bash
@@ -72,7 +77,7 @@ Copy code
 python manage.py runserver
 Access the API at http://127.0.0.1:8000/api/.
 
-9. Test the API
+###9. Test the API
 Use Postman or curl to test the API endpoints. For authenticated requests, include the token in the Authorization header:
 
 bash
